@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+/* you should always write above code in css file */
+
+.Count{
+    font-size: 3rem;
+}
+.head{
+    color: black;
+    font-weight: bold;
+    text-decoration:underline;
+    margin-bottom: 30px;
+}
+button{
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    background-color: cyan;
+    font-size: 30px;
+    padding: 10px;
+}
+.Reset{
+    width: 100px;
+    margin-top: 10px;
+    background-color: cyan;
+}
+.input{
+    margin-top: 10px;
+    height: 2rem;
+    width: 5rem;
+}
